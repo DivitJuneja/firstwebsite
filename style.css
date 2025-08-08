@@ -1,0 +1,183 @@
+*
+{
+    font-family: calibri;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0px;
+}
+#header
+{
+    height: 80px;
+    background-color: rgb(245, 236, 236);
+    margin: 0px;
+}
+.container
+{
+    padding-top: 5px;
+    width: 1180px;
+    height: auto;
+}
+.txt
+{
+    width: 30%;
+    float: left;
+    font-weight: bold;
+    color: blacK;
+    text-align: center;
+    padding: 13px;
+    font-size: 1.7em;
+}
+.lists
+{
+    width: 55%;
+    color: #000;
+    float: left;
+}
+.lists ul
+{
+    
+    list-style-type: none;
+    padding-top: 3px;
+    text-align: center;
+}
+.lists li
+{
+     display: inline-block;
+    margin-right: 14px;
+}
+.lists a
+{
+     text-decoration: none;
+    color: #000;
+}
+.lists a:hover
+{
+    color: red;
+}
+.phone
+{
+    width: 15%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+/* header finished */
+#banner
+{
+    height: 500px;
+    background-image: url(images/lp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sol h1
+{
+    margin: 0px;
+    text-align: center;
+    padding-top: 170px;
+    font-size: 62px;
+    color: white;
+}
+.sol p
+{
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+/* banner finished */
+#jobs
+{
+    height:380px ;
+}
+.about
+{
+    margin-left: 3%;
+    width: 19%;
+    margin-right: 3%;
+    float: left;
+    margin-top: 80px;
+    text-align: center;
+}
+.about img
+{
+    height: 50px;
+    width: 50px;
+}
+.about p
+{
+    text-align: center;
+}
+#info
+{
+    height: 630px;
+    background-color: #d1d0ce;
+}
+.inform
+{
+    padding-top: 54px;
+    width: 50%;
+    float: left;
+    padding-left: 40px;
+}
+.inform p,.inform h1
+{
+    text-align: left;
+    padding-left: 60px;
+}
+/* .inform h1
+{
+    text-align: left;
+} */
+.inform img
+{
+    height: 250px;
+    padding-left: 80px;
+}
+.inform button
+{
+    font-size: 18px;
+    padding: 4px 22px;
+}
+.inform2
+{
+    float: left;
+}
+.inform2 img
+{
+    margin-top: 70px;
+    height: 200px;
+    float: left;
+    margin-left: 80px;
+}
+#contact
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    /* background-color: aqua; */
+    height: 300px;
+}
+.c1
+{
+    margin-top: 60px;
+    width: 30%;
+    margin-right: 3.33%;
+    float: left;
+    text-align: left;
+    padding-left: 40px;
+
+}
+.c1 h1
+{
+    margin: 0px;
+}
+.c1 img
+{
+    height: 50px;
+    margin-top: 30px;
+}
